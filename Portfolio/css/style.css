@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", monospace, sans-serif, serif;
+}
+
+a{
+    text-decoration: none;
+    color: #202020;
+    transition: all .2s ease;
+    
+}
+
+a:hover{
+    color: rgba(0,0,200,0.5);
+    font-size: 1.2em;
+}
+
+img {
+    max-height: 100%;
+}
+
+p {
+    color: #7E8385;
+}
+
+
+.nav {
+    display: none;
+    flex-direction: columns;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: -18px;
+}
+
+.nav ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header {
+    background-image: url(../assets/headerbackground.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: white;
+}
+
+.profileimg {
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    height: 160px;
+    position: relative;
+    text-align: center;
+    width: 160px;
+    display: block;
+    margin: -90px auto 100px;
+    background-image: url(../assets/eu.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.profile {
+    margin: 100px 0px;
+}
+
+.socialmedia{
+    text-align: justify;
+    width: 100%;
+}
+
+.socialmedia ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 60%;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.skills {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.resumo {
+    text-align: justify;
+    margin-bottom: 150px;
+}
+
+#curriculum {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+#curriculum h3 {
+    margin-bottom: 10px;
+}
+
+.cv {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.formacao {
+    margin-bottom: 25px;
+}
+
+.ADS {
+    padding-bottom: 10px;
+    border-bottom-color: rgba(0,0,0,0.1);
+    border-bottom-style: inset;
+    border-bottom-width: thin;
+    margin-bottom: 10px;
+}
+
+
+.minicursos {
+    margin-bottom: 25px;
+}
+
+.htmlcss {
+    padding-bottom: 10px;
+    border-bottom-color: rgba(0,0,0,0.1);
+    border-bottom-style: inset;
+    border-bottom-width: thin;
+    margin-bottom: 10px;
+}
+
+.work {
+    margin-bottom: 25px;
+}
+
+.ventron {
+    padding-bottom: 10px;
+    border-bottom-color: rgba(0,0,0,0.1);
+    border-bottom-style: inset;
+    border-bottom-width: thin;
+    margin-bottom: 10px;
+}
+
+.flex {
+    padding-bottom: 10px;
+    border-bottom-color: rgba(0,0,0,0.1);
+    border-bottom-style: inset;
+    border-bottom-width: thin;
+    margin-bottom: 10px;
+}
+
+.languages {
+    margin-bottom: 150px;
+}
+
+.freelance {
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.freelance a {
+    margin-top: 20px;
+    border-color: white;
+    color: white;
+    width: 50%;
+    border-style: ridge;
+    border-width: thin;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.freelance a:hover{
+    color: rgba(255,255,255,0.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.projects {
+    text-align: center;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects a {
+    font-size: 30px;
+}
+
+
+
+
+
+.prefooter {
+    background-color: rgba(0,0,0,0.75);
+    color: #AA9159;
+    text-align: center;
+    margin-bottom: -1.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.prefooter h2{
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 25px;
+    color: #777777;
+    letter-spacing: 2px;
+    margin: 20px 0px;   
+}
+
+#contato {
+    color: #AA9159;
+}
+
+.links-prefooter {
+    margin: 0 auto;
+    width: 60%;
+    height: 70px;
+}
+
+.email-prefooter {
+    height: 40px;
+}
+
+.email-prefooter a:hover {
+    font-size: 1.05em;
+}
+
+.prefooter ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.prefooter a {
+    color: #AA9159;
+    margin-bottom: 30px;
+}
+
+.prefooter ul a:hover {
+    font-size: 1.35em;
+}
+.footer {
+    background-color: #27292E;
+    color: #565656;
+    font-size: 0.65em;
+    height: 8vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width:768px) {
+    
+    .nav {
+        display: flex;
+    }
+    .socialmedia ul {
+        width: 35%;
+    }
+    
+    .freelance {
+        height: 35vh;
+    }
+    
+    .freelance a {
+        width: 25%;
+    }
+    
+    .projects {
+        height: 35vh;
+    }
+}
+
+
+
+
